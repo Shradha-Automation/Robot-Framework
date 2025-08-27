@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.1 on win32)" generated="2025-08-28T00:33:01.389841" rpa="false" schemaversion="5">
+<suite id="s1" name="Google" source="C:\Users\shradha\workspace_python\Pycharm_Project\Robot_Framework\Scripts\Google.robot">
+<test id="s1-t1" name="Open Google And Verify Title" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-28T00:33:01.938934" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-28T00:33:01.937019" elapsed="2.747797"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2025-08-28T00:33:06.865536" level="INFO">Page title is 'Google'.</msg>
+<arg>Google</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2025-08-28T00:33:04.686245" elapsed="2.179447"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-28T00:33:06.866076" elapsed="2.305160"/>
+</kw>
+<status status="PASS" start="2025-08-28T00:33:01.934625" elapsed="7.237977"/>
+</test>
+<status status="PASS" start="2025-08-28T00:33:01.392854" elapsed="7.781934"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Google" id="s1" pass="1" fail="0" skip="0">Google</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

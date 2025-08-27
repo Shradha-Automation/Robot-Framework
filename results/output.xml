@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.1 on win32)" generated="2025-08-28T00:34:19.025275" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Framework" source="C:\Users\shradha\workspace_python\Pycharm_Project\Robot_Framework">
+<suite id="s1-s1" name="Scripts" source="C:\Users\shradha\workspace_python\Pycharm_Project\Robot_Framework\scripts">
+<suite id="s1-s1-s1" name="Headless" source="C:\Users\shradha\workspace_python\Pycharm_Project\Robot_Framework\scripts\headless.robot">
+<test id="s1-s1-s1-t1" name="Open Google And Verify Title" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-08-28T00:34:19.528241" level="INFO">Opening browser 'HeadlessChrome' to base url 'https://www.google.com'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-08-28T00:34:19.527306" elapsed="2.484813"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2025-08-28T00:34:22.021898" level="INFO">Page title is 'Google'.</msg>
+<arg>Google</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2025-08-28T00:34:22.012662" elapsed="0.009885"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-28T00:34:22.022884" elapsed="2.215094"/>
+</kw>
+<status status="PASS" start="2025-08-28T00:34:19.523277" elapsed="4.715246"/>
+</test>
+<status status="PASS" start="2025-08-28T00:34:19.080817" elapsed="5.163170"/>
+</suite>
+<status status="PASS" start="2025-08-28T00:34:19.075589" elapsed="5.172588"/>
+</suite>
+<status status="PASS" start="2025-08-28T00:34:19.037842" elapsed="5.213192"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot Framework" id="s1" pass="1" fail="0" skip="0">Robot Framework</stat>
+<stat name="Scripts" id="s1-s1" pass="1" fail="0" skip="0">Robot Framework.Scripts</stat>
+<stat name="Headless" id="s1-s1-s1" pass="1" fail="0" skip="0">Robot Framework.Scripts.Headless</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,12 @@
+<testdata>
+    <applicationurl>https://katalon.com/</applicationurl>
+    <useid>testuser</useid>
+    <password>Password$$#1</password>
+    <chrome_path>/Users/mkroy/Downloads/chromedriver</chrome_path>
+    <email>gfhj@gmail.com</email>
+    <herokuapp>https://the-internet.herokuapp.com/</herokuapp>
+    <alerttext>I am learning Robot Framework</alerttext>
+    <letskode>https://www.letskodeit.com/practice</letskode>
+<!--    <letskode>https://www.letskodeit.com/practice</letskode>-->
+
+</testdata>
